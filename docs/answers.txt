@@ -1,0 +1,46 @@
+1. On branch master
+   Your branch is up to date with 'origin/master'.
+
+   nothing to commit, working tree clean
+
+2. There have been 9 commits to the repository. This is the command I used: git rev-list --count master
+
+3. README.md was last modified on Fri Oct 20 01:13:58 2023. This is the command I used: git log README.md
+
+4. One reason branches are used in a Git repository is so that multiple programmers can work on a project together.
+   They are able to make changes separately on their own machines, and when they are ready to test those changes
+   with the entire repository they can commit to them. Another reason why branches are used in a Git repository is 
+   for experimentation and bug testing. The programmer is able to check their work locally, and if it is successful
+   they can add commit it back to the repository.
+
+5. Git log is used to see the history of the changes made to a git repository. Git status is used to determine 
+   what changes have been made and if they are ready to be committed.
+
+6. git log -- Vehicle.h
+
+7. git log --grep="file"
+
+8. I. In object oriented programming, inheritence is a concept in which a new class can be created that is derived 
+      from another class. The derived class inherits features from the base class which it can use in it's own
+      unique way.
+   II. In object oriented programming, polymorphism is a concept allowing different classes to act in a similar way
+       with the same function calls. It makes code more uniform throughout different classes and function calls, so 
+       that a class can be derived from a base class and act the same way as that base.
+   III. In object oriented programming, encapsulation is the concept of creating a more "programmer friendly" 
+        interface. It essentially hides the information that is not necessary for use outside of the class, 
+        and gives the programmer access to the data through well developed functions.
+
+9. The main difference between the "Dictator and Lieutenants" workflow and the "Integration manager" workflow is that
+   with the "Dictator and Lieutenants" workflow, the programmers push their changes to a Lieutenant repository, where
+   the Lieutenant fixes any bugs between that set of programmers. The Lieutenants then push their changes to a dictator
+   repository which fixes any bugs between the Lieutenant repositories. The dictator then pushes those changes to the 
+   central repository. However in an "Integration manager" workflow, each developer pushes their changes to their 
+   public repository, and the integration manager pulls those changes, fixes any bugs, and pushes those changes to the 
+   central repository. 
+
+10. A team of 100 developers would benefit from the "Dictator and Lietenants" workflow in that it provides more 
+    opporunity for bug resolution. Each Lieutenant focuses on a small number of programmers and is able to fix any bugs
+    that arise between them, before sending them to the dictator who can fix any bugs that are left over. However, in 
+    a "Centralized" workflow fixing bugs will be difficult, as there is no mediation between individual programmers to
+    fix bugs. Essentially, having a dictator and lieutenants makes the process much more organized and streamlines
+    the bug fixing process.
