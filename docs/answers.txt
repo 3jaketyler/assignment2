@@ -1,3 +1,6 @@
+Git Lab Tutorials: 10/18/23
+GitHub Account: 10/18/23
+
 1. On branch master
    Your branch is up to date with 'origin/master'.
 
